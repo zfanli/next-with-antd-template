@@ -1,6 +1,6 @@
 import { Adapter, AdapterAccount } from "next-auth/adapters";
-import prisma from "./prisma";
 import { Prisma } from "@prisma/client";
+import prisma from "./prisma";
 
 export function PrismaAdapter(): Adapter {
   return {
